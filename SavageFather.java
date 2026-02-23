@@ -18,9 +18,6 @@ public class SavageFather extends Person {
         if (health > 100) health = 100;
         System.out.println("Живительная влага подействовала. Старик закашлялся, но в его глазах появился блеск.");
     }
-    
-    // <<<--- ВОТ ЭТОТ МЕТОД НУЖНО ДОБАВИТЬ ---<<<
-    // Метод для смены имени после узнавания
     public void revealIdentity() {
         this.name = "Отец Пятницы";
     }
