@@ -11,6 +11,7 @@ public class StorySimulation {
         Friday friday = new Friday();
         SavageFather father = new SavageFather(initialHealth);
         Item rumBottle = new Item("бутыль с ромом", rumAmount);
+        friday.takeItem(rumBottle);
 
         System.out.println("История начинается. Робинзон и Пятница нашли на берегу лодку со связанным человеком.");
         
